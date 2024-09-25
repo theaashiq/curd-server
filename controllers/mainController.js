@@ -1,13 +1,13 @@
 const Main = require('../model/mainSchema')
 
 const getMain = async ( req, res ) => {
-    // try {
-    //     const mainData = await Main.find().limit(5)
-    //     res.status(200).json(mainData)
-    // } catch (err) {
-    //     res.status(500).json({error: 'Error fetching data', details: err.message})
-    // }
-    res.json({name: 'Mohammed Aashiq'})
+    try {
+        const mainData = await Main.find().limit(5)
+        res.status(200).json(mainData)
+    } catch (err) {
+        res.status(500).json({error: 'Error fetching data', details: err.message})
+    }
+    // res.json({name: 'Mohammed Aashiq'})
 } 
 
 const createMain = async ( req, res ) => {
