@@ -6,7 +6,7 @@ const corsOptions = require(path.join(__dirname, 'config', 'corsOptions'))
 const errorHandler = require(path.join(__dirname, 'middleware', 'errorHandling'))
 const connectDB = require('./config/dbConfig')
 
-const PORT = process.env.PORT || 5400
+const PORT = process.env.PORT || 5600
 
 const app = express()
 
