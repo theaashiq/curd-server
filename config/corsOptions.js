@@ -1,5 +1,5 @@
 const whiteList = [
-    // 'http://www.google.com',
+    'http://www.google.com',
     'http://127.0.0.1:5400',
     'http://localhost:5400'
 ]
