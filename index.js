@@ -38,7 +38,17 @@ app.all('*', (req, res) => {
 
 app.use(errorHandler)
 
-app.listen(PORT, () => {
-    connectDB()
-    console.log('Sever running in port ', PORT)
-})
+connectDB()
+    .then((res) => {
+        app.listen(PORT, () => {
+            console.log('Sever running in port ', PORT)
+        })
+    })
+    .catch((err) => {
+        console.log(err)
+    }) 
+
+// app.listen(PORT, () => {
+    
+//     console.log('Sever running in port ', PORT)
+// })
