@@ -1,0 +1,11 @@
+25-09-2024  00-09-89	d28521bc-f6b1-4117-bb71-26747d9b86c0	Error: Not allowed by CORS
+25-09-2024  00-09-81	3cb47322-2424-427d-b6cd-2f0b93c1332b	Error: Not allowed by CORS
+25-09-2024  00-09-30	56ebc3cc-3667-4446-a189-69cf5192dae3	Error: Not allowed by CORS
+25-09-2024  00-09-32	4ed9048e-0ca5-4b13-9064-4be9b384f3b5	Error: Not allowed by CORS
+25-09-2024  00-09-08	06dbb7da-0426-4513-b0c4-23ec2c2a6d7e	TypeError: Cannot read properties of undefined (reading 'send')
+25-09-2024  03-09-13	fe986119-9bcc-49c8-835a-5a45455166e7	SyntaxError: Unexpected token } in JSON at position 42
+25-09-2024  03-09-19	5f455f4c-1a1b-4044-9807-5b2730b663d7	SyntaxError: Unexpected token } in JSON at position 42
+25-09-2024  03-09-42	ed8d4f75-0235-4479-8db2-554e5bb16353	SyntaxError: Unexpected token } in JSON at position 42
+25-09-2024  03-09-44	b641412b-fea2-4a16-995f-449657ec8f63	SyntaxError: Unexpected token } in JSON at position 42
+25-09-2024  03-09-21	56f5dd32-65cf-4526-907e-05c2a1033ed1	SyntaxError: Unexpected token } in JSON at position 42
+25-09-2024  03-09-07	e057433e-9831-421e-a80f-02541cbd4910	SyntaxError: Unexpected token } in JSON at position 42
