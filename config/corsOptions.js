@@ -1,7 +1,9 @@
 const whiteList = [
     'https://www.google.com',
     'http://127.0.0.1:5400',
-    'http://localhost:5600'
+    'http://localhost:5600',
+    'http://localhost:5173',
+    'https://curd-view-main.vercel.app/'
 ]
 
 const corsOptions = {
