@@ -9,3 +9,8 @@
 25-09-2024  03-09-44	b641412b-fea2-4a16-995f-449657ec8f63	SyntaxError: Unexpected token } in JSON at position 42
 25-09-2024  03-09-21	56f5dd32-65cf-4526-907e-05c2a1033ed1	SyntaxError: Unexpected token } in JSON at position 42
 25-09-2024  03-09-07	e057433e-9831-421e-a80f-02541cbd4910	SyntaxError: Unexpected token } in JSON at position 42
+03-10-2024  01-10-28	38d669e1-3432-43ea-a95e-127e1a7837a2	SyntaxError: Unexpected number in JSON at position 178
+03-10-2024  01-10-04	40238566-3dd1-476f-a9bf-91acd013bfc0	SyntaxError: Unexpected token / in JSON at position 190
+03-10-2024  02-10-76	148bf08e-bb03-45f6-99ae-7572431081a6	SyntaxError: Unexpected token } in JSON at position 108
+03-10-2024  02-10-41	1c36ad70-a264-44a6-8501-7e71215ad317	SyntaxError: Unexpected token } in JSON at position 108
+03-10-2024  02-10-31	a5631208-11aa-448e-96ee-0d3f0920369c	SyntaxError: Unexpected token } in JSON at position 108

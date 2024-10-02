@@ -22,8 +22,9 @@ app.use(cors(corsOptions));
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 
-// app.use('/', require(path.join(__dirname, 'routes', 'mainRoutes')))
-app.use('/', require('./routes/mainRoutes'))
+app.use('/fetchData', require('./routes/mainRoutes'))
+app.use('/operation', require('./routes/operationRoutes'))
+
 
 app.all('*', (req, res) => {
     res.status(404);
