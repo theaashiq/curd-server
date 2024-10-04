@@ -189,3 +189,9 @@
 03-10-2024  04-10-11	9fa06ea9-8d83-4e4a-96a9-e970fc8d35c4	DELETE	undefined	/delete
 03-10-2024  04-10-71	aea82e01-1a09-4910-98bf-505059a3c327	DELETE	undefined	/operation/delete
 03-10-2024  04-10-67	13df7d03-3a5b-4b9c-8a8e-45f9b65e5cc1	GET	undefined	/fetchData
+04-10-2024  22-10-55	8de71450-82e4-4d63-86dc-36ab60e7c414	GET	undefined	/fetchData
+04-10-2024  22-10-53	59c382f9-0666-40cc-a56f-d1349305c596	GET	undefined	/fetchData
+04-10-2024  22-10-79	20de1b49-b436-401e-9d85-aaffdfd7c592	POST	undefined	/operation/create
+04-10-2024  22-10-62	3a134d5f-318a-4c53-8d86-f256dc370983	PUT	undefined	/operation/update
+04-10-2024  22-10-19	d0b6fbce-dbcc-4427-8840-d5c03ec1d763	DELETE	undefined	/operation/delete
+04-10-2024  22-10-76	17b569ab-b753-476f-b9dd-909124360d98	GET	undefined	/fetchData
