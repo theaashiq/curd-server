@@ -20,7 +20,17 @@ const fetchMainData = async ( req, res ) => {
             adult: await Main.countDocuments({age: {$gte: 19, $lte: 45}}),
             senior: await Main.countDocuments({age: {$gt: 45}}),
         }
-        const customersData = await Main.find().sort({ createdAt: -1 })
+        let customersData;
+        switch (req.body.sortBy) {
+            case 'name' :
+                customersData = await Main.find().sort({ firstName: 1 })    
+            break
+            case 'date' :
+                customersData = await Main.find().sort({ createdAt: -1 })
+            break
+            default:
+                customersData = await Main.find();
+        }
         res.status(200).json({
             dashboard : dashboardData,
             customers: customersData
