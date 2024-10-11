@@ -5,6 +5,6 @@ const fs = require('fs')
 const { getMain, createMain, updateMain, deleteMain, fetchMainData } = require('../controllers/mainController')
 
 router.route('/')
-    .get(fetchMainData)
+    .post(fetchMainData)
 
 module.exports = router

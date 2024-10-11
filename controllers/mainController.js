@@ -23,7 +23,7 @@ const fetchMainData = async ( req, res ) => {
         let customersData;
         switch (req.body.sortBy) {
             case 'name' :
-                customersData = await Main.find().sort({ firstName: 1 })    
+                customersData = await Main.find().sort({ firstName: 1 })  
             break
             case 'date' :
                 customersData = await Main.find().sort({ createdAt: -1 })
