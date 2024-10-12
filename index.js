@@ -25,6 +25,7 @@ app.use(express.json())
 app.use('/fetchData', require('./routes/mainRoutes'))
 app.use('/operation', require('./routes/operationRoutes'))
 app.use('/suggest', require('./routes/suggestingRoute'))
+app.use('/generateReport', require('./routes/generateReportRoute'))
 
 
 app.all('*', (req, res) => {
