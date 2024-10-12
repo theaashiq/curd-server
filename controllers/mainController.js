@@ -29,7 +29,7 @@ const fetchMainData = async ( req, res ) => {
                 customersData = await Main.find().sort({ createdAt: -1 })
             break
             default:
-                customersData = await Main.find();
+                customersData = await Main.find().sort({ createdAt: -1 });
         }
         res.status(200).json({
             dashboard : dashboardData,
